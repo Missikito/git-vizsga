@@ -15,6 +15,7 @@ let songIndex = 2;
 
 //Zene adatainak betöltése a DOMba
 loadSong(songs[songIndex]);
+console.log('Oldal betöltődése kész');
 
 
 //Frissítjük a zenék adatait
