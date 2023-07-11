@@ -30,6 +30,28 @@ Changes to be committed:
   (use "git restore --staged <file>..." to unstage)
         new file:   .gitignore
         new file:   README.MD
-        modified:   app.js
+        modified:   app.js 
+
+PS C:\Users\User\Documents\Github\git-vizsga> git commit . -m "First Change" 
+[console 5d76313] First Change
+ 3 files changed, 40 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 README.MD
 
 PS C:\Users\User\Documents\Github\git-vizsga> git remote set-url origin git@github.com:Missikito/git-vizsga.git
+
+PS C:\Users\User\Documents\Github\git-vizsga> git status
+On branch console
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.MD
+        modified:   style.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+PS C:\Users\User\Documents\Github\git-vizsga> git add .
+
+PS C:\Users\User\Documents\Github\git-vizsga> 
+
+PS C:\Users\User\Documents\Github\git-vizsga>
