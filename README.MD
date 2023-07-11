@@ -52,6 +52,6 @@ no changes added to commit (use "git add" and/or "git commit -a")
 
 PS C:\Users\User\Documents\Github\git-vizsga> git add .
 
-PS C:\Users\User\Documents\Github\git-vizsga> 
-
-PS C:\Users\User\Documents\Github\git-vizsga>
+PS C:\Users\User\Documents\Github\git-vizsga> git commit . -m "Second Change"
+[console cf34140] Second Change
+ 2 files changed, 25 insertions(+), 3 deletions(-)
